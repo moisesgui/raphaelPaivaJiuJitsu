@@ -1,0 +1,17 @@
+@import "../../../App.scss";
+
+.banner-carousel {
+    @apply rounded-xl px-20 md:py-8 lg:pt-12 lg:pb-0;
+
+    button {
+        @apply hidden;
+    }
+
+    img {
+        @apply w-96 mx-3 rounded-xl h-20 border border-gray-200
+    }
+
+    @include tablet {
+        @apply px-1;
+    }
+}

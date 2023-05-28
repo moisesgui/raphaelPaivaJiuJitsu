@@ -1,0 +1,30 @@
+@import "../../../App.scss";
+
+.card-container {
+    @apply w-80 bg-white border border-gray-200 rounded-xl shadow hover:shadow-xl dark:bg-gray-800 dark:border-gray-700 my-4 mx-4;
+
+    img {
+        @apply rounded-t-xl cursor-pointer;
+    }
+
+    h5 {
+        @apply py-2 px-2 text-2xl font-bold tracking-tight text-gray-500 dark:text-white;
+    }
+    p {
+        @apply px-2 ;
+    }
+
+    .card-description {
+        @apply h-100 min-h-full mb-5 font-normal text-sm text-gray-500 dark:text-gray-50;
+
+        &--button {
+            @apply inline-flex items-center px-3 py-2 text-sm text-base text-center text-yellow-400 bg-blue rounded-lg hover:bg-yellow-500 hover:text-blue hover:font-semibold dark:bg-yellow-500 dark:text-blue dark:font-semibold dark:hover:bg-yellow-100;
+        }
+    }
+
+    @include mobile {
+        h5 {
+            @apply h-20;
+        }
+    }
+}

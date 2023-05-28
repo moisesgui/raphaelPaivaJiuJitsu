@@ -1,0 +1,14 @@
+@import "../../../App.scss";
+
+
+.carousel-wrapper {
+    img {
+        @apply h-44 w-full
+    }
+
+    @include mobile {
+        button {
+            @apply hidden;
+        }
+    }
+}
