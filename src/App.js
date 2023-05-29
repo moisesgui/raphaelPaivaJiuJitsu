@@ -1,13 +1,11 @@
-import { Home } from "./pages/Home/Home";
-
 import "./App.scss";
-// import { TeamPage } from "pages/Team/Team";
+import Router from "../src/lib/routes";
+
 
 export default function App() {
   return (
     <>
-      {/* <TeamPage /> */}
-      <Home />
+     <Router />
     </>
   );
 }

@@ -45,15 +45,15 @@ export const Header = () => {
               />
             </button>
             <a href="#" className="header_content--logo">
-              <img src={logoCode} alt="rapha-logo" width={50} />
+              <img src={logoCode} alt="rapha-logo" width={70} />
             </a>
           </div>
 
           <nav>
             <div className="nav-menu mobile-menu">
-              <a href="#">Home</a>
-              <a href="#">Sobre</a>
-              <a href="#">Nosso time</a>
+              <a href="/">Home</a>
+              <a href="/Sobre">Sobre</a>
+              <a href="/NossoTime">Nosso time</a>
             </div>
           </nav>
         </div>
