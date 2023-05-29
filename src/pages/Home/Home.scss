@@ -3,8 +3,19 @@
 .home-container {
   @apply flex flex-col h-screen;
 
+  &--title {
+    @apply mt-8 mb-6 tracking-widest font-audiowide md:px-8 text-4xl tracking-wide lg:text-[5em] lg:leading-none font-bold text-[#FEF102];
+
+    text-shadow: 3px 3px #000;
+    letter-spacing: 3px;
+  }
+
   #default-search {
     -webkit-appearance: none;
+  }
+
+  .iframe-content {
+    @apply rounded-2xl w-full h-128 border-2;
   }
 
   .banner {

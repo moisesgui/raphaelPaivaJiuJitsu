@@ -23,22 +23,6 @@ footer {
     }
   }
 
-  .social-media {
-    @apply sm:flex sm:items-center sm:justify-between;
-
-    &__container {
-      @apply flex mt-4 space-x-6 sm:justify-center sm:mt-0;
-
-      a {
-        @apply text-gray-300 hover:text-yellow-500 dark:hover:text-white;
-
-        svg {
-          @apply w-8;
-        }
-      }
-    }
-  }
-
   @include mobile {
     @apply py-8 px-8;
 

@@ -6,10 +6,13 @@ import { initFlowbite } from "flowbite";
 import { Footer } from "shared/components/Footer/Footer";
 import { Header } from "shared/components/Header/Header";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "flowbite";
 import "./Home.scss";
 
 export const Home = () => {
+  AOS.init();
   initFlowbite();
 
   return (
@@ -21,9 +24,7 @@ export const Home = () => {
             <div class="text-center">
               <div class="container px-4 mx-auto">
                 <div class="flex flex-col items-center justify-center max-w-4xl mx-auto text-center">
-                  <h2 class="mt-8 mb-6 font-audiowide px-8 text-4xl tracking-wide lg:text-[5em] lg:leading-none font-bold text-[#FEF102]">
-                    RAPHAEL PAIVA JIU JITSU
-                  </h2>
+                  <h2 class="home-container--title">RAPHAEL PAIVA JIU JITSU</h2>
                   {/* <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Laborum sit cum iure qui, nostrum at sapiente ducimus.
@@ -33,7 +34,7 @@ export const Home = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center justify-center gap-2 border bg-[#25D146] border-[#25D146] text-white focus:ring-4 focus:outline-none font-medium font-inter rounded-xl  
-      w-[200px] h-[46px] text-base text-center mr-3 md:mr-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
+      w-[200px] h-[48px] text-base text-center mr-3 md:mr-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +55,18 @@ export const Home = () => {
         </div>
       </section>
 
+      <section className="hidden md:block pt-14">
+        <div>
+          <BannerCarousel />
+        </div>
+      </section>
+
       <section>
-        <div className="flex flex-col items-center px-4 md:px-0 md:flex-row md:items-start justify-center gap-6 py-[100px]">
+        <div
+          className="flex flex-col items-center px-4 md:px-0 md:flex-row md:items-start justify-center gap-6 py-[100px] aos-init"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div
             className="w-full md:w-1/3"
             id="accordion-collapse"
@@ -275,7 +286,7 @@ export const Home = () => {
               <p className="text-[#6C717B] font-inter leading-5 text-18 tracking-tight mb-4">
                 Talvez a resposta esteja aqui.
               </p>
-              <p className="text-[#6C717B] font-inter leading-5 text-18 tracking-tight mb-4">
+              <p className="text-[#6C717B] font-inter leading-5 text-18 tracking-tight mb-8 md:mb-4">
                 Se preferir, entre em contato com a nossa equipe.
               </p>
               <div className="flex md:order-2">
@@ -304,7 +315,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="newsletter">
+      <section className="newsletter" data-aos="fade-up">
         <div className="newsletter__container">
           <div className="newsletter__container--content">
             <h2>Inscreva-se para mais informações.</h2>
@@ -351,31 +362,32 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="hidden md:block">
-        <di>
-          <BannerCarousel />
-        </di>
-      </section>
-
-      <section className="carousel-slick">
-        <div className="py-10">
+      <section
+        className="carousel-slick"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <div className="py-20">
           <div className="carousel-slick--title">
-            <p>Vestuário Casual</p>
+            <p>Roupas e Equipamentos</p>
             <hr></hr>
           </div>
           <Slider />
         </div>
       </section>
 
-      <section>
-        <div className="flex justify-center items-center w-full h-128 bg-black">
+      <section className="carousel-slick aos-init m-auto" data-aos="fade-up">
+        <div className="carousel-slick--title">
+          <p>Nossa Localização</p>
+          <hr></hr>
+        </div>
+        <div className="px-8 md:px-20 pb-10">
           <iframe
             title="google maps"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5630.4660097554315!2d-38.4896633079575!3d-3.7357264298783557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749cfdc496af5%3A0xa45fcfc0959b28b6!2sRaphael%20Paiva%20Doj%C3%B4!5e0!3m2!1spt-BR!2sbr!4v1685360250957!5m2!1spt-BR!2sbr"
-            width="900"
-            height="400"
             allowfullscreen=""
             loading="lazy"
+            class="iframe-content"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
