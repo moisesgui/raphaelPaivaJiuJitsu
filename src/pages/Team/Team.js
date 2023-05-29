@@ -17,10 +17,10 @@ export const TeamPage = () => {
       <section className=" p-14">
         <div className="container">
           <div className="flex flex-col items-center justify-center w-full">
-            <h1 className="font-audiowide text-[50px] font-bold text-[#313131]">
+            <h1 className="font-audiowide text-[#313131] text-[50px] font-bold ">
               Essa é nossa família!
             </h1>
-            <p className="text-base font-bold text-[#313131]">
+            <p className="text-base text-[#313131] font-bold ">
               Oss, aqui estão todos os nossos amigos, por ordem de graduação.
             </p>
           </div>

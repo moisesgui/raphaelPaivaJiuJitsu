@@ -1,7 +1,7 @@
 @import "../../../src/App.scss";
 
 .container {
-  @apply flex items-center h-auto justify-center flex-wrap m-auto gap-[8rem];
+  @apply flex items-center gap-[8rem] h-auto justify-center flex-wrap m-auto;
 
   .belt-content {
     @apply flex flex-row flex-wrap items-center justify-evenly w-full gap-6;
