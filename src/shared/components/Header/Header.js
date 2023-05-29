@@ -25,26 +25,26 @@ export const Header = () => {
               <div
                 className={`${genericHamburgerLine} ${
                   isOpen
-                    ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100 bg-gray-50"
-                    : "opacity-50 group-hover:opacity-100 bg-gray-50"
+                    ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100 bg-yellow-100"
+                    : "opacity-50 group-hover:opacity-100 bg-yellow-100"
                 }`}
               />
               <div
                 className={`${genericHamburgerLine} ${
                   isOpen
                     ? "opacity-0"
-                    : "opacity-50 group-hover:opacity-100 bg-gray-50"
+                    : "opacity-50 group-hover:opacity-100 bg-yellow-100"
                 }`}
               />
               <div
                 className={`${genericHamburgerLine} ${
                   isOpen
-                    ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100 bg-gray-50"
-                    : "opacity-50 group-hover:opacity-100  bg-gray-50"
+                    ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100 bg-yellow-100"
+                    : "opacity-50 group-hover:opacity-100  bg-yellow-100"
                 }`}
               />
             </button>
-            <a href="#" className="header_content--logo">
+            <a href="/" className="header_content--logo">
               <img src={logoCode} alt="rapha-logo" width={50} />
             </a>
           </div>

@@ -26,7 +26,7 @@ header {
     }
 
     .mobile-menu--active {
-      @apply flex bg-gray-50 shadow-2xl rounded-b-xl h-96 w-full py-4 px-8 flex-col text-base overflow-hidden absolute top-20 left-0 origin-top border border-blue;
+      @apply flex bg-[#000000a1] shadow-2xl rounded-b-xl h-64 w-full py-4 px-8 flex-col text-base overflow-hidden absolute top-[4.6rem] left-0 origin-top border-b-2 border-yellow-100;
 
       .form-login {
         @apply mt-24 md:mt-0 md:flex items-center;
