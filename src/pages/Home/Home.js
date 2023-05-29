@@ -339,7 +339,7 @@ export const Home = () => {
               <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-50 newsletter-form-footer dark:text-gray-300">
                 Preocupamo-nos com a proteção dos seus dados.{" "}
                 <a
-                  href="#"
+                  href="/home"
                   className="font-medium text-primary-600 dark:text-primary-500 hover:underline"
                 >
                   Leia nossa política de privacidade
@@ -368,16 +368,16 @@ export const Home = () => {
       </section>
 
       <section>
-        <div>
-          {/* <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3981.3425109218647!2d-38.48985747763684!3d-3.7353265502868878!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749cfdc496af5%3A0xa45fcfc0959b28b6!2sRaphael%20Paiva%20Doj%C3%B4!5e0!3m2!1spt-BR!2sbr!4v1685359065460!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border:0;"
+        <div className="flex justify-center items-center w-full h-128 bg-black">
+          <iframe
+            title="google maps"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5630.4660097554315!2d-38.4896633079575!3d-3.7357264298783557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749cfdc496af5%3A0xa45fcfc0959b28b6!2sRaphael%20Paiva%20Doj%C3%B4!5e0!3m2!1spt-BR!2sbr!4v1685360250957!5m2!1spt-BR!2sbr"
+            width="900"
+            height="400"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-          ></iframe> */}
+          ></iframe>
         </div>
       </section>
       <Footer />

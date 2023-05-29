@@ -61,7 +61,7 @@
   }
 
   .newsletter {
-    @apply bg-[#000] dark:bg-gray-900 rounded-t-2xl md:rounded-none;
+    @apply bg-black dark:bg-gray-900 rounded-t-2xl md:rounded-none;
 
     &__container {
       @apply px-8 py-8 md:px-0 mx-auto max-w-screen-xl;
