@@ -15,12 +15,16 @@ module.exports = {
       },
       backgroundImage: {
         "hero-image": "url('/src/assets/imagens/raphaelpaiva-equipe.jpg')",
+        logotipo: "url('/src/assets/imagens/rapha-logo.png')",
       },
       colors: {
         white: "#ffff",
         black: "#111",
         blue: "#0A2647",
         blueLight: "#1e324e",
+        blueBelt: "#3a86ff",
+        purpleBelt: "#560bad",
+        brownBelt: "#583101",
         yellow: {
           50: "#fff3b0",
           100: "#ffea00",

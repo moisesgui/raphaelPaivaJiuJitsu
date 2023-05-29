@@ -1,0 +1,5 @@
+@import "../../../src/App.scss";
+
+.container {
+  @apply flex items-center justify-center flex-wrap m-auto gap-8;
+}
