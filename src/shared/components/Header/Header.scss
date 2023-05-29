@@ -1,16 +1,25 @@
 @import "../../../App.scss";
 
 header {
-  @apply bg-gray-900 border-b-2 border-[#FEF102] text-gray-50 shadow-xl sticky top-0 z-30;
+  @apply border-b-2 border-[#FEF102] text-gray-50 shadow-xl sticky top-0 z-30;
+
+  background: rgb(48, 24, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 24, 23, 1) 0%,
+    rgba(31, 32, 34, 1) 0%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(30, 129, 149, 1) 100%
+  );
 
   .header__content {
     @apply container flex flex-wrap mx-auto py-[0.5rem] justify-between flex-col md:flex-row items-center;
 
     .nav-menu {
-      @apply hidden md:flex md:justify-center md:items-center;
+      @apply hidden md:flex md:justify-center md:items-center gap-12;
 
       a {
-        @apply py-2 mr-4 font-semibold md:font-normal md:text-gray-50 md:hover:text-[#FEF102] tracking-wide hover:border-b-2 hover:border-[#FEF102] hover:rounded-md;
+        @apply py-2 font-semibold md:font-normal md:text-gray-50 md:hover:text-[#FEF102] tracking-wide hover:border-b-2 hover:border-[#FEF102] hover:rounded-md;
       }
 
       .register {

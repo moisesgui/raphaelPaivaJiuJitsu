@@ -18,7 +18,7 @@
     @apply h-100 min-h-full mb-5 font-normal text-sm text-gray-500 dark:text-gray-50;
 
     &--button {
-      @apply inline-flex items-center px-4 py-2 gap-2 text-base text-center font-semibold bg-yellow-100 rounded-lg shadow-md border border-[#9999] hover:bg-yellow-200 tracking-wide;
+      @apply w-full inline-flex items-center justify-center px-4 py-2 gap-2 text-base text-white text-center font-normal bg-green-400 rounded-full shadow-md hover:bg-green-450 tracking-wide;
     }
   }
 

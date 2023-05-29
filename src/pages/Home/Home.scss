@@ -58,7 +58,7 @@
     &--title {
       @apply px-20 py-8;
       p {
-        @apply pb-2 text-gray-500 font-bold text-4xl;
+        @apply font-audiowide pb-2 text-gray-500 font-bold text-4xl;
       }
 
       @include mobile {
