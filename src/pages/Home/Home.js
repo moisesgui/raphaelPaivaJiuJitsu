@@ -21,7 +21,7 @@ export const Home = () => {
             <div class="text-center">
               <div class="container px-4 mx-auto">
                 <div class="flex flex-col items-center justify-center max-w-4xl mx-auto text-center">
-                  <h2 class="mt-8 mb-6 px-8 text-4xl lg:text-5xl font-bold text-[#FEF102]">
+                  <h2 class="mt-8 mb-6 font-audiowide px-8 text-4xl tracking-wide lg:text-[5em] lg:leading-none font-bold text-[#FEF102]">
                     RAPHAEL PAIVA JIU JITSU
                   </h2>
                   {/* <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">

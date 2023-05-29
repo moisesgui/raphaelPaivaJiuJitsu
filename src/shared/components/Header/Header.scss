@@ -4,13 +4,13 @@ header {
   @apply bg-black border-b-2 border-[#FEF102] text-gray-50 shadow-xl sticky top-0 z-30;
 
   .header__content {
-    @apply container flex flex-wrap mx-auto py-4 justify-between flex-col md:flex-row items-center;
+    @apply container flex flex-wrap mx-auto py-[0.5rem] justify-between flex-col md:flex-row items-center;
 
     .nav-menu {
       @apply hidden md:flex md:justify-center md:items-center;
 
       a {
-        @apply py-2 mr-4 font-semibold md:font-normal md:text-gray-50 md:hover:text-[#FEF102] hover:underline hover:decoration-2 tracking-wide;
+        @apply py-2 mr-4 font-semibold md:font-normal md:text-gray-50 md:hover:text-[#FEF102] tracking-wide hover:border-b-2 hover:border-[#FEF102] hover:rounded-md;
       }
 
       .register {

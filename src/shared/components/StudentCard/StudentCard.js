@@ -3,10 +3,10 @@ import "./StudentCard.scss";
 
 export const StudentCard = ({ name, image, faixa, texto }) => {
   return (
-    <div className="card-container" style={{ backgroundColor: faixa }}>
+    <div className="card-student" style={{ backgroundColor: faixa }}>
       <a href="#">
         <img
-          className="rounded-t-lg w-[18rem]"
+          className="rounded-t-lg w-[20rem]"
           src={image}
           alt="aluno-moises"
         />

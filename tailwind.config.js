@@ -4,6 +4,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        audiowide: ["Audiowide, cursive"],
+        rajdhani: ["Rajdhani", "sans-serif"],
+      },
       borderRadius: {
         mdd: "0.4rem",
       },

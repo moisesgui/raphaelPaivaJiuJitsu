@@ -1,5 +1,13 @@
 @import "../../../src/App.scss";
 
 .container {
-  @apply flex items-center justify-center flex-wrap m-auto gap-8;
+  @apply flex items-center h-auto justify-center flex-wrap m-auto gap-[8rem];
+
+  .belt-content {
+    @apply flex flex-row flex-wrap items-center justify-evenly w-full gap-6;
+  }
+}
+
+.logo {
+  @apply h-20;
 }
