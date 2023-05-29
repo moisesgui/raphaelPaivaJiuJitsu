@@ -51,9 +51,9 @@ export const Header = () => {
 
           <nav>
             <div className="nav-menu mobile-menu">
-              <a href="#">Home</a>
-              <a href="#">Sobre</a>
-              <a href="#">Nosso time</a>
+              <a href="/">Home</a>
+              <a href="/Sobre">Sobre</a>
+              <a href="/NossoTime">Nosso time</a>
             </div>
           </nav>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Header } from "shared/components/Header/Header";
 import { Slider } from "../../shared/components/slider/Slider";
 import { BannerCarousel } from "shared/components/BannerCarousel/BannerCarousel";
 import { initFlowbite } from "flowbite";
@@ -11,6 +11,7 @@ export const Home = () => {
 
   return (
     <div className="home-container">
+      <Header />
       <section>
         <div class="w-full h-screen bg-center bg-cover bg-hero-image">
           <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
