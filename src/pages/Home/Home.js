@@ -6,6 +6,7 @@ import { initFlowbite } from "flowbite";
 import { Footer } from "shared/components/Footer/Footer";
 import { Header } from "shared/components/Header/Header";
 
+import logo from "../../assets/imagens/rapha-logo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "flowbite";
@@ -24,7 +25,13 @@ export const Home = () => {
             <div class="text-center">
               <div class="container px-4 mx-auto">
                 <div class="flex flex-col items-center justify-center max-w-4xl mx-auto text-center">
-                  <h2 class="home-container--title">RAPHAEL PAIVA JIU JITSU</h2>
+                  <h2
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    class="home-container--title"
+                  >
+                    RAPHAEL PAIVA JIU JITSU
+                  </h2>
                   {/* <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Laborum sit cum iure qui, nostrum at sapiente ducimus.
@@ -33,6 +40,8 @@ export const Home = () => {
                     href="https://api.whatsapp.com/send?1=pt_BR&phone=5585982380699"
                     target="_blank"
                     rel="noreferrer"
+                    data-aos="zoom-in"
+                    fade-aos-duration="2000"
                     className="flex items-center justify-center gap-2 border bg-[#25D146] border-[#25D146] text-white focus:ring-4 focus:outline-none font-medium font-inter rounded-xl  
       w-[200px] h-[48px] text-base text-center mr-3 md:mr-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
                   >
@@ -55,7 +64,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="hidden md:block pt-14">
+      <section className="hidden md:block pt-12">
         <div>
           <BannerCarousel />
         </div>
@@ -63,10 +72,17 @@ export const Home = () => {
 
       <section>
         <div
-          className="flex flex-col items-center px-4 md:px-0 md:flex-row md:items-start justify-center gap-6 py-[100px] aos-init"
+          className="flex flex-col items-center px-4 md:px-0 md:flex-row md:items-center justify-center gap-6 py-[100px] aos-init"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
+          <div
+            className="hidden md:flex mr-20"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <img src={logo} alt="rapha-logo" width="250" />
+          </div>
           <div
             className="w-full md:w-1/3"
             id="accordion-collapse"
@@ -362,11 +378,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section
-        className="carousel-slick"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
+      <section className="carousel-slick" data-aos="fade-up">
         <div className="py-20">
           <div className="carousel-slick--title">
             <p>Roupas e Equipamentos</p>
