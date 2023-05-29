@@ -5,7 +5,11 @@ export const StudentCard = ({ name, image, faixa, texto }) => {
   return (
     <div className="card-container" style={{ backgroundColor: faixa }}>
       <a href="#">
-        <img className="rounded-t-lg" src={image} alt="aluno-moises" />
+        <img
+          className="rounded-t-lg w-[18rem]"
+          src={image}
+          alt="aluno-moises"
+        />
       </a>
       <div className="p-5">
         <a href="#">
