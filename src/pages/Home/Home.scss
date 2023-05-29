@@ -61,7 +61,7 @@
   }
 
   .newsletter {
-    @apply bg-[#000] dark:bg-gray-900 rounded-t-2xl md:rounded-none;
+    @apply bg-black dark:bg-gray-900 rounded-t-2xl md:rounded-none;
 
     &__container {
       @apply px-8 py-8 md:px-0 mx-auto max-w-screen-xl;
@@ -94,54 +94,6 @@
             @apply py-3 px-5 w-full md:w-32 text-sm text-center text-black font-bold rounded-lg  border border-[#FEF102] cursor-pointer bg-[#FEF102] sm:rounded-none sm:rounded-r-lg hover:bg-yellow-200 focus:ring-4;
           }
         }
-      }
-    }
-  }
-
-  footer {
-    @apply p-4 bg-gray-900 sm:p-6 md:px-8 md:py-12 dark:bg-gray-900;
-
-    hr {
-      @apply my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8;
-    }
-
-    .footer__container {
-      @apply md:flex md:justify-around;
-
-      .footer__content {
-        @apply grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3;
-
-        h2 {
-          @apply mb-6 text-sm md:text-base font-semibold text-gray-50 uppercase dark:text-white;
-        }
-
-        ul {
-          @apply text-gray-300 dark:text-gray-400;
-        }
-      }
-    }
-
-    .social-media {
-      @apply sm:flex sm:items-center sm:justify-between;
-
-      &__container {
-        @apply flex mt-4 space-x-6 sm:justify-center sm:mt-0;
-
-        a {
-          @apply text-gray-300 hover:text-yellow-500 dark:hover:text-white;
-
-          svg {
-            @apply w-8;
-          }
-        }
-      }
-    }
-
-    @include mobile {
-      @apply py-8 px-8;
-
-      .social-media {
-        @apply flex flex-col items-center justify-center;
       }
     }
   }

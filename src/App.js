@@ -1,4 +1,3 @@
-
 import "./App.scss";
 import Router from "../src/lib/routes";
 

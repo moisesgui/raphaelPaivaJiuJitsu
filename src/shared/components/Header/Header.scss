@@ -1,10 +1,10 @@
 @import "../../../App.scss";
 
 header {
-  @apply bg-[#000000] text-gray-50 shadow-xl sticky top-0 z-30;
+  @apply bg-black border-b-2 border-[#FEF102] text-gray-50 shadow-xl sticky top-0 z-30;
 
   .header__content {
-    @apply container flex flex-wrap mx-auto py-2 justify-between md:gap-8 flex-col md:flex-row items-center;
+    @apply container flex flex-wrap mx-auto py-4 justify-between flex-col md:flex-row items-center;
 
     .nav-menu {
       @apply hidden md:flex md:justify-center md:items-center;
