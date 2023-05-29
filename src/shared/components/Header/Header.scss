@@ -1,7 +1,7 @@
 @import "../../../App.scss";
 
 header {
-  @apply bg-black border-b-2 border-[#FEF102] text-gray-50 shadow-xl sticky top-0 z-30;
+  @apply bg-gray-900 border-b-2 border-[#FEF102] text-gray-50 shadow-xl sticky top-0 z-30;
 
   .header__content {
     @apply container flex flex-wrap mx-auto py-[0.5rem] justify-between flex-col md:flex-row items-center;

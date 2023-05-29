@@ -20,19 +20,19 @@ export const Home = () => {
     <div className="home-container">
       <Header />
       <section>
-        <div class="w-full h-screen bg-center bg-cover bg-hero-image">
-          <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
-            <div class="text-center">
-              <div class="container px-4 mx-auto">
-                <div class="flex flex-col items-center justify-center max-w-4xl mx-auto text-center">
+        <div className="w-full h-screen bg-center bg-cover bg-hero-image">
+          <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+            <div className="text-center">
+              <div className="container px-4 mx-auto">
+                <div className="flex flex-col items-center justify-center max-w-4xl mx-auto text-center">
                   <h2
                     data-aos="fade-right"
                     data-aos-duration="1000"
-                    class="home-container--title"
+                    className="home-container--title"
                   >
                     RAPHAEL PAIVA JIU JITSU
                   </h2>
-                  {/* <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                  {/* <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Laborum sit cum iure qui, nostrum at sapiente ducimus.
                   </p> */}
@@ -50,7 +50,7 @@ export const Home = () => {
                       width="22"
                       height="22"
                       fill="currentColor"
-                      class="bi bi-whatsapp"
+                      className="bi bi-whatsapp"
                       viewBox="0 0 16 16"
                     >
                       <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
@@ -91,7 +91,7 @@ export const Home = () => {
             <h2 id="accordion-collapse-heading-1">
               <button
                 type="button"
-                class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                 data-accordion-target="#accordion-collapse-body-1"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-1"
@@ -99,7 +99,7 @@ export const Home = () => {
                 <span>Jiu Jitsu é seguro?</span>
                 <svg
                   data-accordion-icon
-                  class="w-6 h-6 rotate-180 shrink-0"
+                  className="w-6 h-6 rotate-180 shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -114,11 +114,11 @@ export const Home = () => {
             </h2>
             <div
               id="accordion-collapse-body-1"
-              class="hidden"
+              className="hidden"
               aria-labelledby="accordion-collapse-heading-1"
             >
-              <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
+              <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <p className="mb-2 text-gray-500 dark:text-gray-400">
                   O jiu jitsu é um esporte muito seguro, e a segurança é um dos
                   princípios básicos da equipe Raphael Paiva. Nossas Regras de
                   conduta, nosso programa de currículo e metodologia, processo
@@ -130,7 +130,7 @@ export const Home = () => {
             <h2 id="accordion-collapse-heading-2">
               <button
                 type="button"
-                class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                 data-accordion-target="#accordion-collapse-body-2"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-2"
@@ -138,7 +138,7 @@ export const Home = () => {
                 <span>Quem pode fazer Jiu jitsu?</span>
                 <svg
                   data-accordion-icon
-                  class="w-6 h-6 shrink-0"
+                  className="w-6 h-6 shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -153,11 +153,11 @@ export const Home = () => {
             </h2>
             <div
               id="accordion-collapse-body-2"
-              class="hidden"
+              className="hidden"
               aria-labelledby="accordion-collapse-heading-2"
             >
-              <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
+              <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                <p className="mb-2 text-gray-500 dark:text-gray-400">
                   O nosso jiu jitsu é para todos - independentemente do sexo ou
                   idade. O jiu jitsu brasileiro foi originalmente formulado para
                   uso por pessoas menores e mais fracas, permitindo que eles se
@@ -170,7 +170,7 @@ export const Home = () => {
             <h2 id="accordion-collapse-heading-3">
               <button
                 type="button"
-                class="flex items-center justify-between w-full p-5  font-medium text-left text-gray-500 border border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5  font-medium text-left text-gray-500 border border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                 data-accordion-target="#accordion-collapse-body-3"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-3"
@@ -178,7 +178,7 @@ export const Home = () => {
                 <span>Eu preciso participar de competições?</span>
                 <svg
                   data-accordion-icon
-                  class="w-6 h-6 shrink-0"
+                  className="w-6 h-6 shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -193,11 +193,11 @@ export const Home = () => {
             </h2>
             <div
               id="accordion-collapse-body-3"
-              class="hidden"
+              className="hidden"
               aria-labelledby="accordion-collapse-heading-3"
             >
-              <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
+              <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                <p className="mb-2 text-gray-500 dark:text-gray-400">
                   Não. A grande maioria das pessoas que aprendem e treinam jiu
                   jitsu não competem. É claro, as competições podem ser uma
                   razão para criar objetivos e um grande modo de se desafiar e
@@ -212,7 +212,7 @@ export const Home = () => {
             <h2 id="accordion-collapse-heading-5">
               <button
                 type="button"
-                class="flex items-center justify-between w-full p-5  font-medium text-left text-gray-500 border border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5  font-medium text-left text-gray-500 border border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                 data-accordion-target="#accordion-collapse-body-5"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-5"
@@ -220,7 +220,7 @@ export const Home = () => {
                 <span>Como é o ambiente de treino?</span>
                 <svg
                   data-accordion-icon
-                  class="w-6 h-6 shrink-0"
+                  className="w-6 h-6 shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -235,11 +235,11 @@ export const Home = () => {
             </h2>
             <div
               id="accordion-collapse-body-5"
-              class="hidden"
+              className="hidden"
               aria-labelledby="accordion-collapse-heading-5"
             >
-              <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
+              <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                <p className="mb-2 text-gray-500 dark:text-gray-400">
                   Prezamos muito o ambiente de treinamento, para que o Dojô seja
                   um local onde se possa sentir-se à vontade e ao mesmo tempo
                   respeitar seus limites e o dos seus parceiros de treino. Neste
@@ -260,7 +260,7 @@ export const Home = () => {
             <h2 id="accordion-collapse-heading-4">
               <button
                 type="button"
-                class="flex items-center justify-between w-full p-5 rounded-b-xl  font-medium text-left text-gray-500 border border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5 rounded-b-xl  font-medium text-left text-gray-500 border border-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                 data-accordion-target="#accordion-collapse-body-4"
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-4"
@@ -268,7 +268,7 @@ export const Home = () => {
                 <span>Como e quando eu começo a treinar?</span>
                 <svg
                   data-accordion-icon
-                  class="w-6 h-6 shrink-0"
+                  className="w-6 h-6 shrink-0"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -283,11 +283,11 @@ export const Home = () => {
             </h2>
             <div
               id="accordion-collapse-body-4"
-              class="hidden"
+              className="hidden"
               aria-labelledby="accordion-collapse-heading-4"
             >
-              <div class="p-5 border border-b-1 border-t-0 rounded-b-xl border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
+              <div className="p-5 border border-b-1 border-t-0 rounded-b-xl border-gray-200 dark:border-gray-700">
+                <p className="mb-2 text-gray-500 dark:text-gray-400">
                   Hoje mesmo!! Entre em contato com a gente aqui mesmo pelo
                   nosso site, e venha fazer parte da nossa família.
                 </p>
@@ -318,7 +318,7 @@ export const Home = () => {
                     width="22"
                     height="22"
                     fill="currentColor"
-                    class="bi bi-whatsapp"
+                    className="bi bi-whatsapp"
                     viewBox="0 0 16 16"
                   >
                     <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
@@ -399,7 +399,7 @@ export const Home = () => {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5630.4660097554315!2d-38.4896633079575!3d-3.7357264298783557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749cfdc496af5%3A0xa45fcfc0959b28b6!2sRaphael%20Paiva%20Doj%C3%B4!5e0!3m2!1spt-BR!2sbr!4v1685360250957!5m2!1spt-BR!2sbr"
             allowfullscreen=""
             loading="lazy"
-            class="iframe-content"
+            className="iframe-content"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
