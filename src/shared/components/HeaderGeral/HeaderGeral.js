@@ -5,7 +5,7 @@ import "./HeaderGeral.scss";
 export const HeaderGeral = () => {
   const [isOpen, setIsOpen] = useState(false);
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
-
+  
   const burgerMenuContent = () => {
     const mobileMenu = document.querySelector(".mobile-menu");
     mobileMenu.classList.toggle("mobile-menu--active");
